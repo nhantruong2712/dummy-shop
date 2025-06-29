@@ -1,0 +1,50 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+tmp/
+out-tsc/
+
+# Angular
+.angular/
+.sass-cache/
+
+# Environment files
+.env
+.env.local
+.env.production.local
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# E2E Test artifacts
+test-results/
+playwright-report/
+
+# IDEs and editors
+.idea/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# npm cache
+.npm
+
+# Optional eslint cache
+.eslintcache

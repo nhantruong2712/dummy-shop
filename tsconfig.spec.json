@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine"
+    ],
+    "baseUrl": "src",
+    "paths": {
+      "@app/*": ["app/*"],
+      "@components/*": ["app/components/*"],
+      "@services/*": ["app/services/*"],
+      "@models/*": ["app/models/*"],
+      "@store/*": ["app/store/*"],
+      "@utils/*": ["app/utils/*"],
+      "@pipes/*": ["app/pipes/*"],
+      "@guards/*": ["app/guards/*"],
+      "@interceptors/*": ["app/interceptors/*"],
+      "@environments/*": ["environments/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
