@@ -14,6 +14,7 @@ Simple product browser with favorites functionality. Built with Angular 20.
 - NgRx for state management
 - Angular Material
 - TypeScript
+- Node 22
 
 ## Getting Started
 
@@ -33,7 +34,7 @@ Open http://localhost:4200
 
 ```bash
 # Unit tests
-npm test
+npm run test
 
 # E2E tests
 npm run e2e
