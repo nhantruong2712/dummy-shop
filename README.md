@@ -42,3 +42,6 @@ npm run e2e
 
 ## Most Complex parts
 Actually, these are quite simple since there are not too many functions/features. If there is a one complex, it's Ngrx
+
+## Note
+This project doesn't require about pagination, but there are 194 products in total. So I think we should apply pagination/virtual scrolling for better performance.
